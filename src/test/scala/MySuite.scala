@@ -6,4 +6,10 @@ class MySuite extends munit.FunSuite {
     val expected = 42
     assertEquals(obtained, expected)
   }
+  test("example of test that fails"){
+    val obtained = 42
+    val expected = 43
+    assertEquals(obtained, expected)
+  }
 }
+
