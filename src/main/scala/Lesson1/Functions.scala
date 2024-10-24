@@ -1,6 +1,7 @@
 package Lesson1
 
 import scala.compiletime.ops.double
+import scala.collection.mutable.ArrayBuffer
 
 object Functions extends App {
     // def greetingFunction(name: String, age: Float): String = 
@@ -13,26 +14,13 @@ object Functions extends App {
 
     // }
 
-    // val my_val: Int = if false then 
-    //     10 
-    // else if true then 
-    //     20 
-    // else 
-    //     30
-    // println(my_val)
 
-    // val my_val = for 
-    //     i <- 1 to 5
-    //     if i % 2 == 0
-    // do
-    //     println(i)
+    // val my_list = List(1,2,3)
+    // my_list = List(10)
 
-    // println(my_val)
+    val my_list: Seq[Int] =  1 :: 2 :: Nil 
+    println(my_list)
 
-    
-    val my_vect: Vector[Any] = Vector(1,2,"3")
-    val my_new_vect = Vector(7,8,9)
 
-    println(my_vect ++: my_new_vect)
 
 }
