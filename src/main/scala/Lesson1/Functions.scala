@@ -4,23 +4,39 @@ import scala.compiletime.ops.double
 import scala.collection.mutable.ArrayBuffer
 
 object Functions extends App {
-    // def greetingFunction(name: String, age: Float): String = 
-    //     "Hi, my name is " + name + " and I am " + age + " years old."
+    def greeting_function(name: String, age: Int): Unit = println(s"Hi my name is $name and I am $age years old")
 
-    // println(greetingFunction("John", 25.3f))
-
-    // def factorial(n: Int): Int = {
-    //     if()
-
-    // }
+    greeting_function("John", 25)
 
 
-    // val my_list = List(1,2,3)
-    // my_list = List(10)
+    def factorial(n: Int): Int = {
+        if n == 1 then 1 else n * factorial(n-1)
+    }
 
-    val my_list: Seq[Int] =  1 :: 2 :: Nil 
-    println(my_list)
+    println(factorial(5))
 
+    def fib(n: Int): Int = {
+        if n == 1 || n == 2 then 1 else
+            var a: Int = 1
+            var b: Int = 1
+            for i <- 3 to n do
+                b = a+b
+                a = b
+            b
+    }
+
+    println(fib(5))
+
+
+    def isprime(n: Int): Boolean = 
+        
+        def isprimeuntil(t: Int): Boolean = 
+            if (t<=1) true else n % t != 0 && isprimeuntil(t-1)
+        
+        isprimeuntil(n/2)
+
+    
+    val my_val: Int = if (true) 1 else 100
 
 
 }
