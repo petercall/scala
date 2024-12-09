@@ -2,7 +2,7 @@
 
 <!-- MARKDOWN TOC: BEGIN -->
 * [Usage](#usage)
-  * [This ain't that big](#text-big-----thing)
+  * [This ain't that big](#text-big-thing)
   * [Biggest Thing Yet](#biggest-thing-yet)
   * [Hurray for More TITLES](#hurray-for-more-titles)
 * [last title](#last-title)
