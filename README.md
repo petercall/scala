@@ -4,7 +4,7 @@
 * [Usage](#usage)
   * [This ain't that big](#text-big-thing)
   * [Biggest Thing Yet](#biggest-thing-yet)
-  * [Hurray for More TITLES](#my-custom-link-tag-ohhh-ya)
+  * [Hurray for More TITLES](#hurray-for-more-tiles)
 * [last title](#last-title)
   * [Very Last Title](#last-thing)
 <!-- MARKDOWN TOC: END -->
