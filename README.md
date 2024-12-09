@@ -20,7 +20,7 @@ For more information on the sbt-dotty plugin, see the
 [scala3-example-project](https://github.com/scala/scala3-example-project/blob/main/README.md).
 
 
-## Text  Big      THing        
+## Text Big THing        
 this is a test item
 **Here it is**
 
