@@ -29,7 +29,7 @@ this is a test item
 | --- | --- |
 | yes this is a good iead | no it is not agoo idea |
 
-### Hurray for more titles
+### Hurray for more titles {#my_custom_link_tag_ohhh_ya}
 I think we are safe here
 I'm not sure we are
 I think it is all good
