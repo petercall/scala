@@ -29,10 +29,11 @@ object Functions extends App {
 
     // println(my_val)
 
-    
-    val my_vect: Vector[Any] = Vector(1,2,"3")
-    val my_new_vect = Vector(7,8,9)
 
-    println(my_vect ++: my_new_vect)
+
+    val my_new = List.range(1,10,1)
+    
+    print(my_new)
+    
 
 }
